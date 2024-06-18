@@ -1,0 +1,662 @@
+.grid__item h1 {
+    color:
+}
+
+.breadcrumb-area {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.breadcrumb-area.bg-img {
+    background: #f6f6f6
+}
+
+.overlay-bg:before {
+    background: #000 none repeat scroll 0 0;
+    opacity: 0
+}
+
+h1.breadcrumb-title {
+    color: #666
+}
+
+.breadcrumb-list>li>a {
+    color: #666
+}
+
+.breadcrumb-list li:after {
+    color: #666
+}
+
+.breadcrumb-list>li {
+    color: #999
+}
+
+@media (max-width: 767px) {
+    .breadcrumb-area.pt-50.pb-70 {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+}
+
+.top-notification-bar {
+    background: #0014bc;
+    background: -moz-linear-gradient(left, #0014bc 0%, #0014bc 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0014bc), color-stop(100%, #0014bc));
+    background: -webkit-linear-gradient(left, #0014bc 0%, #0014bc 100%);
+    background: -o-linear-gradient(left, #0014bc 0%, #0014bc 100%);
+    background: -ms-linear-gradient(left, #0014bc 0%, #0014bc 100%);
+    background: linear-gradient(to right, #0014bc 0% 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0014bc", endColorstr="#0014bc", GradientType=1)
+}
+
+.notification-entry p a {
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    color: #000
+}
+
+.notification-entry p a:hover {
+    background-color: #b900bc;
+    border: 1px solid #b900bc;
+    color: #fff
+}
+
+.notification-close-btn,
+.notification-close-btn:hover {
+    background-color: #0000;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.notification-entry p {
+    color: #fff
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(//professordantcg.com/cdn/fonts/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=551283278ee1a7bbf72183568dda4f38699c8d5ccb055181a857852035895e9a) format("woff2"), url(//professordantcg.com/cdn/fonts/roboto/roboto_n4.a512c7b68cd7f12c72e1a5fd58e7f7315c552e93.woff?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=03cd00058f214db91329b1eeb55da4807ca01e78fd76b7ba7315ae0f40ae4d43) format("woff")
+}
+
+@font-face {
+    font-family: Oswald;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(//professordantcg.com/cdn/fonts/oswald/oswald_n7.f71e68b857a7b8128a7629452b9c6bf9468356a7.woff2?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=0bff31a3fc17549fe7884f8da6d80b15dba9d8156fc77211b719c40a14ea3a3d) format("woff2"), url(//professordantcg.com/cdn/fonts/oswald/oswald_n7.2767cc6e7cfc91284caa2c06eb07eca21a27681e.woff?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=e8723a7bbf21352ce7da0546a4ac6d9cc23034066de5b61e538bfc5be40d5991) format("woff")
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(//professordantcg.com/cdn/fonts/roboto/roboto_n4.da808834c2315f31dd3910e2ae6b1a895d7f73f5.woff2?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=551283278ee1a7bbf72183568dda4f38699c8d5ccb055181a857852035895e9a) format("woff2"), url(//professordantcg.com/cdn/fonts/roboto/roboto_n4.a512c7b68cd7f12c72e1a5fd58e7f7315c552e93.woff?h1=cHJvZmVzc29yZGFuLmFjY291bnQubXlzaG9waWZ5LmNvbQ&h2=cHJvZmVzc29yZGFudGNnLmNvbQ&hmac=03cd00058f214db91329b1eeb55da4807ca01e78fd76b7ba7315ae0f40ae4d43) format("woff")
+}
+
+html,
+body,
+input,
+textarea,
+button,
+select {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.theme-default-margin,
+.shopify-challenge__container {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+@media (max-width: 767px) {
+    .theme-default-margin,
+    .shopify-challenge__container {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+}
+
+.create-custom-page {
+    padding-top: 100px;
+    padding-bottom: 80px
+}
+
+@media (max-width: 767px) {
+    .create-custom-page {
+        padding-top: 80px;
+        padding-bottom: 60px
+    }
+}
+
+.quick-view-select {
+    display: none
+}
+
+body {
+    color: #000;
+    background-color: #f6f6f6
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.multi-testimonial-single-item__author-info .content .name,
+.instagram-section-intro p a,
+.about-single-block p.subtitle,
+.single-faq .card-header h5 button {
+    color: #231f20
+}
+
+.single-product__content .price .discounted-price,
+.shop-product__price .discounted-price {
+    color: #b900bc
+}
+
+.single-product__content .price .main-price.discounted,
+.shop-product__price .main-price.discounted {
+    color: #aaa
+}
+
+.single-product__content .title .product-cart-action a {
+    color: #d3122a
+}
+
+.single-product__content .title h3 {
+    color: #000
+}
+
+.single-product__floating-badges span.soldout-title {
+    background: #d3122a;
+    color: #fff
+}
+
+.single-product__floating-badges span.onsale {
+    background-color: #98d8ca;
+    color: #fff
+}
+
+.product_countdown .single-countdown {
+    background:
+}
+
+.single-product__floating-icons span a,
+.single-product__floating-icons span a:hover {
+    background-color: #0014bc;
+    color: #fff
+}
+
+.single-product__variations.size_variant_conatiner,
+.single-product__variations.color_variant_conatiner {
+    background-color: #fff
+}
+
+.single-product__variations .size-container span {
+    color: #999
+}
+
+.single-product .single-countdown {
+    background: #98d8ca;
+    color: #fff
+}
+
+.lezada-button,
+.shop-product__buttons .product-cart-action button,
+.affiliate_btn>a,
+#shopify-product-reviews .spr-summary-actions-newreview,
+#shopify-product-reviews .spr-button.spr-button-primary.button.button-primary.btn.btn-primary,
+.recent_view_product__content input[disabled].lezada-button.lezada-button--medium {
+    background-color: #0014bc;
+    color: #fff !important;
+    border-color: #0014bc
+}
+
+#modalAddToCart .modal-button .theme-default-button {
+    color: #fff !important;
+    background-color: #0014bc
+}
+
+#modalAddToCart .modal-button .theme-default-button:hover {
+    background: #0000
+}
+
+.lezada-button:hover,
+.lezada-button.lezada-button--medium:hover,
+.shop-product__buttons .product-cart-action button:hover,
+.affiliate_btn>a:hover,
+#shopify-product-reviews .spr-summary-actions-newreview:hover,
+#shopify-product-reviews .spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover {
+    background-color: #0000;
+    color: #0014bc !important;
+    border-color: #0014bc
+}
+
+.modal-button .lezada-button.lezada-button--medium.popup-checkout--btn,
+.modal-button .lezada-button.lezada-button--medium.popup-checkout--btn:hover {
+    background: #d3122a;
+    color: #fff !important
+}
+
+a.scroll-top {
+    background: #333;
+    color: #fff
+}
+
+a.scroll-top:hover {
+    background-color: #abb8c0;
+    color: #fff
+}
+
+.offcanvas-cart-content-container .cart-product-wrapper .cart-buttons a:hover {
+    background-color: #d3122a;
+    border-color: #d3122a
+}
+
+.collection_content h2 a:hover {
+    color: #d3122a
+}
+
+.header-right-icons .single-icon a span.count {
+    background-color: #d3122a
+}
+
+.single-category__content--three--creativehome .title a:hover {
+    color: #d3122a
+}
+
+.single-category__content--three--banner .title>a:hover {
+    border-color: #d3122a
+}
+
+.single-category__content--textbanner a:hover,
+.single-product--wearablehome .single-product__floating-cart span.title a,
+.single-widget-product__content__bottom a.cart-btn,
+.single-product:hover .single-product__content .title h3 a:hover,
+.lezada-button-2:hover,
+.single-slider-post__content a.blog-readmore-btn:hover,
+.list-product-collection .section-title a:hover {
+    color: #d3122a
+}
+
+.single-shoppable .cloth-tag__icon:hover,
+.single-shoppable .cloth-tag__icon.active {
+    background-color: #d3122a
+}
+
+.single-banner--hoverzoom>a .banner-content--banner-type .lezada-button-link:hover {
+    color: #d3122a
+}
+
+.single-banner--hoverzoom>a .banner-content--banner-type .lezada-button-link:hover:after {
+    background-color: #d3122a
+}
+
+.nothing-found-content p a:hover {
+    color: #d3122a
+}
+
+.single-product__floating-badges span.hot {
+    background-color: #d3122a
+}
+
+.product-cart-action button,
+.shopify-payment-button .shopify-payment-button__more-options {
+    color: #d3122a
+}
+
+nav.site-nav>ul>li a span,
+.site-mobile-nav .dl-menu li span,
+.vertical-menu-container-dark nav>ul>li>a span,
+.overlay-navigation-active .overlay-navigation-menu-container nav>ul>li>a span {
+    background: #d3122a
+}
+
+nav.site-nav>ul>li a span:before,
+.site-mobile-nav .dl-menu li span:before,
+.vertical-menu-container-dark nav>ul>li>a span:before,
+.overlay-navigation-active .overlay-navigation-menu-container nav>ul>li>a span:before {
+    background: #d3122a
+}
+
+#modalAddToCart .modal-button .theme-default-button:hover {
+    background: #d3122a
+}
+
+nav.site-nav>ul>li a span.sale,
+.site-mobile-nav .dl-menu li span.sale,
+.vertical-menu-container-dark nav>ul>li>a span.sale,
+.overlay-navigation-active .overlay-navigation-menu-container nav>ul>li>a span.sale {
+    background: #98d8ca
+}
+
+nav.site-nav>ul>li a span.sale:before,
+.site-mobile-nav .dl-menu li span.sale:before,
+.vertical-menu-container-dark nav>ul>li>a span.sale:before,
+.overlay-navigation-active .overlay-navigation-menu-container nav>ul>li>a span.sale:before {
+    background: #98d8ca
+}
+
+#quickViewModal .close:hover {
+    color: #98d8ca;
+    border-color: #98d8ca
+}
+
+.copyright-text a:hover {
+    color: #98d8ca
+}
+
+.product_additional_information button:hover {
+    color: #d3122a
+}
+
+#section-header nav.site-nav>ul>li>a {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important
+}
+
+#section-header nav.site-nav>ul>li>a:after {
+    margin-bottom: -5px !important;
+    height: 3px !important
+}
+
+#section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 h2 {
+    color: #b900bc;
+    font-size: 40px !important;
+    font-weight: 600 !important
+}
+
+#section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 p {
+    font-size: 18px !important;
+    letter-spacing: 1px !important
+}
+
+#section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 .col-12 {
+    max-width: 80% !important;
+    margin: 0 auto !important
+}
+
+div#shopify-section-template--17758298177827__95e78637-429c-4a1b-b660-fa489dd8c5fc {
+    padding-top: 50px !important
+}
+
+.section-title h1 {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    margin-top: none !important
+}
+
+.single-category--type-one {
+    border-bottom: none !important
+}
+
+.single-category--type-one__content a {
+    background: #0014bc !important;
+    color: #fff !important;
+    padding: 15px 45px !important
+}
+
+.single-category--type-one__content:hover a {
+    color: #fff !important;
+    padding: 15px 45px !important
+}
+
+#section-template--17758298079523__1627298270f9df5a4e .section_title_spacing {
+    margin-bottom: 55px !important;
+    margin-top: 10px !important
+}
+
+.html-content h1 {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important
+}
+
+.html-content p {
+    margin: 0 0 17px !important;
+    font-size: 16px !important;
+    letter-spacing: 1px !important
+}
+
+.single-product__content .title a {
+    letter-spacing: 1px !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important
+}
+
+#shopify-section-template--17758298079523__16277124795155b475 .section-title h1 a {
+    color: #b900be !important;
+    font-size: 40px !important;
+    margin-bottom: 40px !important
+}
+
+#shopify-section-template--17758298079523__16277124795155b475 .section-title p.subtitle--trending-home {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #b900be !important
+}
+
+#section-footer .footer-single-widget h5.widget-title {
+    color: #fff;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase
+}
+
+.footer-nav-container nav ul li a {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #fff !important
+}
+
+.footer-nav-container nav ul li a:hover {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #fff !important
+}
+
+.footer-nav-container nav ul li a:after {
+    margin-bottom: -5px !important;
+    height: 2px !important
+}
+
+.footer-subscription-widget .footer-subscription-title {
+    font-size: 20px !important;
+    line-height: 12px !important;
+    margin-bottom: 30px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important
+}
+
+.shop-product {
+    padding-top: 70px !important
+}
+
+.shop-product__description-tab .tab-product-navigation--product-desc .nav-tabs a.active {
+    color: #b900bc !important;
+    font-size: 40px !important;
+    font-weight: 600 !important
+}
+
+.related-product .section-title.mb-30>h2 {
+    font-size: 40px !important;
+    font-weight: 600 !important
+}
+
+.recent_viewed_title.mb-45.text-center h2 {
+    font-size: 40px !important;
+    font-weight: 600 !important
+}
+
+#product-details-with-gallery .shop-product {
+    padding-top: 70px !important
+}
+
+.breadcrumb-title {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    color: #b900bc !important
+}
+
+.shop-product {
+    padding-top: 0 !important
+}
+
+.create-custom-page {
+    padding-top: 80px !important
+}
+
+form#contact_form input,
+textarea#ContactFormMessage {
+    border: 2px solid #b900bc !important;
+    padding: 10px !important
+}
+
+.shopify-policy__container {
+    max-width: 150ch !important;
+    padding: 70px 0 !important
+}
+
+.shopify-policy__title h1 {
+    font-size: 40px !important;
+    margin-bottom: 30px !important
+}
+
+.login-text h2 {
+    font-size: 40px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 10px !important
+}
+
+.login-form-container input {
+    border: 2px solid #b900bc !important;
+    padding: 10px !important
+}
+
+.shop-product__description-tab {
+    padding-top: 0 !important
+}
+
+@media (max-width:767px) {
+    .theme-logo img {
+        max-width: 80px !important
+    }
+    #section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 h2 {
+        font-size: 22px !important;
+        margin-bottom: -10px !important
+    }
+    #section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 p {
+        font-size: 14px !important
+    }
+    #section-template--17758298079523__b00bb3f8-38af-4800-9002-2332ab7bd287 .col-12 {
+        max-width: 100% !important
+    }
+    .section-title h1 {
+        font-size: 25px !important;
+        margin-bottom: -40px !important
+    }
+    .html-content {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important
+    }
+    .html-content-class {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important
+    }
+    .html-content h1 {
+        font-size: 25px !important
+    }
+    #section-template--17758298079523__16277124795155b475 .section-title h1 a {
+        color: #b900be !important;
+        font-size: 30px !important;
+        margin-bottom: 45px !important
+    }
+    div#section-footer {
+        text-align: center !important
+    }
+    div#section-footer .theme-logo img {
+        margin: -50px 0 !important
+    }
+    .shop-product {
+        padding-top: 30px !important
+    }
+    .shop-product__description-tab .tab-product-navigation--product-desc .nav-tabs a.active {
+        font-size: 25px !important
+    }
+    .related-product .section-title.mb-30>h2 {
+        font-size: 25px !important
+    }
+    .recent_viewed_title.mb-45.text-center h2 {
+        font-size: 25px !important
+    }
+    .shopify-policy__container {
+        padding: 30px 0 !important
+    }
+    .shopify-policy__title h1 {
+        font-size: 25px !important;
+        margin-bottom: 20px !important
+    }
+    #section-template--17758298177827__95e78637-429c-4a1b-b660-fa489dd8c5fc .section-title-container.d-flex.justify-content-between.align-items-center.mb-80.mb-md-60.mb-sm-40 {
+        display: flex !important;
+        flex-direction: column !important
+    }
+    #section-template--17758298177827__95e78637-429c-4a1b-b660-fa489dd8c5fc .section-title p.subtitle--deep {
+        margin-bottom: 20px !important
+    }
+    #section-template--17758298177827__95e78637-429c-4a1b-b660-fa489dd8c5fc .section-title h1 {
+        font-size: 25px !important;
+        margin-bottom: 15px !important;
+        text-align: center
+    }
+    #block-16272984271dd9cdb1-0 .hero-slider-content .main-title h2 {
+        font-size: 20px !important
+    }
+    .site-mobile-navigation #mobile-menu-trigger {
+        top: -57px !important
+    }
+}
+
+#section-template--17758298276131__64734ae8-4423-4486-8568-cfe0d38891e4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+div#shopify-section-template--17758298538275__form {
+    min-height: 700px;
+    margin-top: 25px
+}
+
+/*# sourceMappingURL=/cdn/shop/t/2/assets/theme-settings.css.map?v=74817032531267106531698843099 */
